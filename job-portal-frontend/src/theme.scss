@@ -1,0 +1,51 @@
+// Professional "Modern SaaS" theme overrides for Bootstrap 5.
+// Custom variables must be declared before the Bootstrap import so the
+// framework's Sass builds every component (buttons, badges, forms, nav,
+// alerts, shadows...) from this palette instead of the default Bootstrap blue.
+
+$font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  Roboto, Helvetica, Arial, sans-serif;
+
+$primary: #14b8a6;
+$secondary: #64748b;
+$success: #16a34a;
+$info: #0ea5e9;
+$warning: #f59e0b;
+$danger: #ef4444;
+$light: #f8fafc;
+$dark: #0f172a;
+
+$body-bg: #f8fafc;
+$body-color: #1e293b;
+
+$border-color: #e2e8f0;
+$border-radius: 0.625rem;
+$border-radius-sm: 0.4rem;
+$border-radius-lg: 0.875rem;
+$border-radius-xl: 1.25rem;
+$border-radius-2xl: 1.5rem;
+
+$box-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+$box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+$box-shadow-lg: 0 12px 28px rgba(15, 23, 42, 0.12);
+
+$link-decoration: none;
+$link-hover-decoration: none;
+
+$nav-tabs-link-active-bg: $primary;
+$nav-tabs-link-active-color: #fff;
+$nav-tabs-border-radius: $border-radius;
+$nav-tabs-link-hover-border-color: transparent transparent $primary;
+
+$card-border-color: $border-color;
+$card-border-radius: $border-radius-lg;
+
+$badge-font-weight: 600;
+$badge-padding-y: 0.4em;
+$badge-padding-x: 0.65em;
+
+$input-border-color: $border-color;
+$input-focus-border-color: tint-color($primary, 40%);
+$input-focus-box-shadow: 0 0 0 0.2rem rgba($primary, 0.15);
+
+@import 'bootstrap/scss/bootstrap';
